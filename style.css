@@ -1,5 +1,29 @@
+/* entire body */
 .body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* purchase-section */
+
+.button-details {
+    background-color: #E76F51;
+    ;
+}
+.background-purchase-section {
+    background-color: #264653;
+}
+
+/* featured bikes section */
+.grey {
+    filter: grayscale(100%);
+}
+
+/* clients section */
+.orange {
+    color: #E76F51;
+}
+.star-color {
+    color: #E77C40;
 }
 .user-image {
     padding-left: 86px;
@@ -7,3 +31,7 @@
 #rounded {
     margin-left: 25%;
 }
+.name-color {
+    color: #23A6F0;
+}
+
