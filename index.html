@@ -30,8 +30,32 @@
                         We are proudly providing the best deals with our trusted clients throughout the country.
 
                     </p>
-                    <a href="https://www.honda.com/"><button
-                            class="btn text-white button-details px-5">Purchase</button></a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn button-details px-5" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Purchases
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Do you want to buy the Motorbike?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yes</button>
+                                    <button type="button" class="btn btn-primary">Later</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-5 me-5">
@@ -244,7 +268,32 @@
 
     </section>
 
-
+    <!-- Extra section -->
+    <section class="container">
+        <div>
+            <h1 class=" text-center text-secondary p-5"><strong>Importance of Speedbreakers</strong></h1>
+            <p class="text-center text-success p-2">Speed bumps or speed breakers are important for road safety. A speed
+                breaker
+                is anything that can slow down your vehicle's speed. At times when we find ourselves speeding, we tend
+                to
+                slow down when we realize that there is a speed breaker ahead, and that probably helps to save our
+                lives.
+            </p>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/speedbreaker.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/speed-breaker2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/speedbreaker3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
